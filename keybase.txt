@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/bekabug
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bekabug.github.io
+  * I am bekabug (https://keybase.io/bekabug) on keybase.
+  * I have a public key with fingerprint 2E26 4BA1 0C8A 9389 1B1B  913B 00F5 FAB0 860B AFC6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01200f9f5a54275ae87326e972dcf5e48f6ecefd94ef85950b8e2f33cef820e7b9ad0a",
+            "fingerprint": "2e264ba10c8a93891b1b913b00f5fab0860bafc6",
+            "host": "keybase.io",
+            "key_id": "00f5fab0860bafc6",
+            "kid": "0101d134f4f6258e66b086a0f21ddcab321d0e0d2280f27c5d9c344c5b5cd06a05450a",
+            "uid": "eac9da7ca31c89de6389fe96c27ce619",
+            "username": "bekabug"
+        },
+        "service": {
+            "hostname": "bekabug.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467079017,
+    "expire_in": 157680000,
+    "prev": "b4079c8e8cbea3d127adf307e44e6e2a39bbca96122d3fb3d64c0814220c0836",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNsAnicZZJ7UFRlGMYXFii2JSpwR/KSHIZpLFjP/bIWTgQTOklAM6hg7X7fOd9Z
+TtDuuhcuMqI0hQwSaTXIrDYUkhEUN0nLSVEHUQcvI5BJEoniJcEhayhZNDoH84+m
+88875/1+z/M+3ztfT4ReZwjSTQXaKx5r6w3qO7rbp1uzYUgpxaBTKsEspVg+miuo
+QEIerzVfkTALhhMkjsuCzACGJjkGIJ6jSBYJHCmJMoNoXmaRiGRJoJHMMwKDQx6R
+MkWpPZ7EEQcFIOEAS8BkxWFHbpdbcXhVWxKRLA0BgYs8ECheICABBYKC6ixGBhDn
+WRwCWWRVYZ7ToynUcBB4kFlxqj31x/og3v/5h7lxQiIoWqZllmR4xLIaBHCZJCRJ
+BJBSK45wiSR5tceJjCSIFE2LDGRECVdBhmbmcvvm7BAQBQlwIqAIkRckxKqZZSSw
+oipFLCFooAe5HeBtpNIQ5QPos2ObEjC1WaiISNurdpH/Ama74s3zwQd3crmdXqfo
+LFCP87xel8eiyb0lLo0vQtD6r5MVKg5J3aWqKERuj+J0YBZCJUWvolkTNMvhnIAT
+XAKGil2KG1kVjWA4lsfVT5uDCrUItIqJPOJFiAAlESQHJJnCOUTTiEUkoAQIRSCw
+BElKlAwpiaVFnCdoksTVSmmb9qANDqc2Us0J7KqnR7E7gNfnRtimY0fXh+iCDLqw
+0GDtkekM4U88fHqJyyNn87dNCPv1fVfjo7K7Jyp+WmxoNT8iEoXBw0XmRV8/X+1v
+tAX7Pr9bv3DgGdPHK/i86Hl+ZXrUv8hpbFnZcXl8uunkzuhV6xIX8pdby22B7NiN
+oS97fzxQZKpJkzPATNVgvLt29Yez5HmUktv850t6PTxVXvBpsqkmcrM90BXRsax9
+Nn3r2MG3MOORG4e51NzEJPCBq6VkjTAUV7a264V1yYf+5vdlDJ+N1dmWv+bomV09
+VftN8+0Lxw7/cXV+wpfpXWO/Txh5w1dx7zSMdRJZj27da7yVH5m9/1qd4dSy6zG2
+rNDeVz5piWrbTCbFNHb7NlY6Zs7e76FKg6vYhrLbrUG1BT8nf3Tz3JHApbD23uq6
+SX7fjm/7Aln1k3eOvxqdNjo9nLNgJUvvws/fWspFFFvKnztT3ftL4o3+Q6d3/Dbl
+apu/O7Yts2E6/njGr1fMxTU6onPYBK9NFT45ftH1lPmesaGxatWKkHezdy1OONGW
+khQaP9D3Rdw5273vxkekNyr0fuHx4PdM806MbL9Tvid6Mld/Zf3JiwOvN6eUh3R8
+Xzf4w4WmpZUjMwsCOcqQbY/5TO+W1OrRp8OMTWEtxuvY3Z2Z4S/Wj+49HfNZIDct
+vMz/V/dQ3k0hpvLAQZM/lxncAttdNYPpKVG1298fCsqJsBZHK/3Prr20pAt7szsp
+c4kl1dZfIXbe/wdeTsSx
+=zVdW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bekabug
+
+==================================================================
