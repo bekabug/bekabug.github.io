@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Sacramento&display=swap');
+
+$purple: #6B5875;
+$yellow: #FFE6A9;
+$clay: #EAE6E1;
+$slate: #6B686D;
+
+
+$body-family: "Poppins", sans-serif;
+$family-secondary: "Sacramento", cursive;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$body-background-color: $clay;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+body{
+    background-color: $body-background-color;
+    color: $slate;
+    font-family: $body-family;
+    font-weight: 300;
+}
+
+#resume {
+    background: $white;
+    text-align: center;
+}
+#projects {
+    padding: 48px;
+}
+/* -> Links */
+a:link {
+    background: $yellow;
+    color: $slate;
+    border-radius: $radius;
+    padding: 2px;
+}
+a:visited{}
+a:hover{
+    color: $purple;
+}
+a:active{}
+
+
+h1 {
+    font-family: $body-family;
+    font-weight: 700;  
+}
+
+h1.title {
+    background: $purple;
+    border-radius: $radius;
+    color: #fff;;
+    font-family: $body-family;
+    font-weight: 700;
+    padding: 12px 8px;
+}
+h2, h3, h4{
+    font-family: $body-family;
+    font-weight:700;
+}
+
+footer{
+    background-color: $slate;
+    color: $yellow;
+    font-weight: 700;
+}
