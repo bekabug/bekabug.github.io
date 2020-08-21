@@ -1,15 +1,20 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Clicker+Script&display=swap');
 
 $purple: #6B5875;
+$red: #822626;
+$hotpink: hsla(346,79,59,1);
+$bordeaux: hsla(341.6,78.95,18.63,1);
 $yellow: #FFE6A9;
 $clay: #EAE6E1;
 $slate: #6B686D;
+$plum: rgb(143, 126, 146);
+$green: rgb(130, 151, 126);
 
 
 $body-family: "Poppins", sans-serif;
-$family-secondary: "Sacramento", cursive;
+$family-secondary: "Clicker Script", cursive;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 $body-background-color: $clay;
@@ -26,14 +31,14 @@ body{
 
 #resume {
     background: $white;
-    text-align: center;
 }
-#projects {
+.columns {
     padding: 48px;
 }
+.columns p {margin: 8px 0;}
 /* -> Links */
 a:link {
-    background: $yellow;
+    background: $yellow;    
     color: $slate;
     border-radius: $radius;
     padding: 2px;
@@ -50,7 +55,7 @@ h1 {
     font-weight: 700;  
 }
 
-h1.title {
+h2.title {
     background: $purple;
     border-radius: $radius;
     color: #fff;;
@@ -62,7 +67,13 @@ h2, h3, h4{
     font-family: $body-family;
     font-weight:700;
 }
-
+.script {
+    font-family: $family-secondary;
+    font-size: $size-1;
+}
+.red{
+    color:$hotpink;
+}
 footer{
     background-color: $slate;
     color: $yellow;

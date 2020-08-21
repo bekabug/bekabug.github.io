@@ -4,18 +4,43 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramen to Code 🍜</title>
+    <title>Beka Pribek : Portfolio</title>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-    <header><h1>Noodle Powered Projects</h1></header>
     <nav></nav>
-    <div class="columns is-mobile is-multiline is-centered">
-        <div class="column is-half">
+    <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Beka Pribek
+            </h1>
+            <h2 class="subtitle script red">
+              @bekabug
+            </h2>
+          </div>
+        </div>
+      </section>
+    <div class="columns is-mobile is-multiline is-centered" id="resume">
+        <div class="column is-half is-centered">
+            <p>Cupcake ice cream jelly-o caramels dragée candy fruitcake. Sweet roll oat cake f
+                ruitcake gingerbread apple pie tiramisu pudding. Fruitcake halvah macaroon bonbon. 
+                Chocolate cake toffee powder powder.</p>
+            <p>Marshmallow cookie dragée chocolate bar chupa chups chocolate bar cheesecake. 
+                Pastry bonbon jujubes marzipan lemon drops. Cotton candy chocolate bar chocolate 
+                cake pie.</p>
+    </div>
+        <div class="column is-half is-centered">
+            <h1>My Resume</h1>
+            <button>PDF Download</button>
+        </div>
+    </div>
+    <div class="columns is-mobile is-multiline is-centered" id="projects">
+        <div class="column" id="static">
             <section>
-                <h1 class="title">Static Pages</h1>
+                <h2 class="title">Static Pages</h2>
                 <article>
                     <h2>Hugo</h2>
                     <h3>Bekabug.com</h3>
@@ -25,8 +50,10 @@
                     theme.
                 </article>
             </section>
+        </div>
+        <div class="column" id="javascript">
             <section>
-                <h1 class="title">Javascript</h1>
+                <h2 class="title">Javascript</h2>
                 <h2>React</h2>
                 <h3>Fluent UI &amp; Gatsby</h3>
                 <p>
@@ -38,8 +65,10 @@
                         UI & Gatsby Demo</a>
                 </p>
             </section>
+        </div>
+        <div class="column" id="python">
             <section>
-                <h1 class="title">Python</h1>
+                <h2 class="title">Python</h2>
                 <article>
                     <h2>Django</h2>
                     <h3>Dejah Blog</h3>
@@ -53,8 +82,10 @@
                     </p>
                 </article>
             </section>
+        </div>
+        <div class="column" id="wordpress">
             <section>
-                <h1 class="title">WordPress</h1>
+                <h2 class="title">WordPress</h2>
                 <h3>Feeding The Spiders</h3>
                 <p>
                     Feeding The Spiders is the blog I have maintained since the
@@ -63,11 +94,11 @@
                 <a href="http://www.feedingthespiders.com" target="_blank" rel="noopener noreferrer">Feeding The
                     Spiders</a>
             </section>
+            
         </div>
-        <!--end .column #1-->
     </div>
     <!--end .columns-->
-
+    <footer><i class="fab fa-python"></i><i class="fas fa-coffee"></i><i class="fas fa-heart"></i></footer>
 </body>
 
 </html>
