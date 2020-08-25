@@ -2,7 +2,7 @@
 @import "../../node_modules/bulma/bulma.sass";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Clicker+Script&display=swap');
 
-$purple: #6B5875;
+$purple: rgb(107,88,117);
 $red: #822626;
 $hotpink: hsla(346,79%,59%,1);
 $softpink: hsla(348,32%,87%,1);
@@ -36,14 +36,15 @@ body{
 }
 
 .columns {
-    padding: 48px;
-    
-    #projects{
-    
-    }
-    p {margin: 8px 0;}
+    padding: 3rem;
+    border: none;
 }
 
+div.column.projects {
+    border: 1px dotted $purple;
+    border-radius: $radius-large;
+    margin: 0 .8rem .8rem;
+}
 
 /* -> Links */
 
@@ -65,20 +66,19 @@ h1 {
     font-weight: 700;  
 }
 
-h2.project-title {
-    background: $purple;
-    border-radius: $radius;
-    color: #fff;;
-    font-family: $family-secondary;
-    font-size: $size-1;
-    font-weight: 700;
-    padding: 12px 8px;
-    text-shadow:$text-shadow;
 
-}
 h2, h3, h4{
     font-family: $body-family;
     font-weight:700;
+}
+.title {
+    position: relative;
+    z-index: 2;
+}
+.subtitle{
+    position: relative;
+    z-index: 1;
+    top: -3rem;
 }
 .script {
     font-family: $family-secondary;
@@ -87,8 +87,13 @@ h2, h3, h4{
 .red{
     color:$softpink;
 }
+.project-title {
+    color: $white;
+}
+
+/* --> Footer */
 footer{
     background-color: $slate;
-    color: $yellow;
+    color: $softpink;
     font-weight: 700;
 }
