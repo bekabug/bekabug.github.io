@@ -10,6 +10,7 @@ $bordeaux: hsla(341.6,78.95%,18.63%,1);
 $yellow: #FFE6A9;
 $clay: #EAE6E1;
 $slate: #6B686D;
+$granite: hsl(285,2.5%,31.8%);
 $plum: rgb(143, 126, 146);
 $green: rgb(130, 151, 126);
 
@@ -98,12 +99,34 @@ section.hero div.hero-body div.container h1.title {
     color: $white;
     font-size: $size-1 + .5;
 }
-h1.titlescript {
-    background: orange;
-}
 
+h1.titlescript {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: $plum;
+    background-image: linear-gradient(155deg, $plum, $clay);
+    color: $plum;
+    font-family: $family-secondary;
+    font-size: $size-1 + 2.5;
+    letter-spacing: -1px;
+    position: relative;
+    text-align: center;
+    /*text-shadow: 3px 2px 8px $granite;*/
+    top: 80px;
+}
+div.projects{
+    background-color: $slate;
+    border-radius: $radius;
+    color: $clay;
+}
 .project-title {
     color: $white;
+    font-size: $size-4;
+    text-transform: lowercase;
 }
 
 /* --> Footer */
