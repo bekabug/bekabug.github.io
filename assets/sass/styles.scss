@@ -72,6 +72,12 @@ h2, h3, h4{
     font-family: $body-family;
     font-weight:700;
 }
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
 .title {
     position: relative;
     z-index: 2;
