@@ -15,6 +15,7 @@ $plum: rgb(143, 126, 146);
 $green: rgb(130, 151, 126);
 
 
+$primary: $purple;
 $body-family: "Poppins", sans-serif;
 $family-secondary: "Clicker Script", cursive;
 $widescreen-enabled: false;
@@ -41,12 +42,6 @@ body{
     border: none;
 }
 
-div.column.projects {
-    border: 1px dotted $purple;
-    border-radius: $radius-large;
-    margin: 0 .8rem .8rem;
-}
-
 /* -> Links */
 
 a,a:link {
@@ -61,17 +56,20 @@ a:hover{
 }
 a:active{}
 
-
+svg[class*=svg-inline] {
+    font-size: 3rem;
+}
+svg.small {font-size: .4rem;}
 h1 {
     font-family: $body-family;
     font-weight: 700;  
 }
 
-
 h2, h3, h4{
     font-family: $body-family;
     font-weight:700;
 }
+
 .right {
     text-align: right;
 }
@@ -101,13 +99,18 @@ h2, h3, h4{
     background: $plum;
 
 }
+.hero-body, section#about.section {
+    padding: 1rem 1.5rem 4rem;
+}
 section.hero div.hero-body div.container h1.title {
     color: $white;
     font-size: $size-1 + .5;
 }
 section.section.projects{
-
+    background: $granite;
+    color: $clay;
     padding-top: 0;
+    text-align: right;
 }
 
 h1.titlescript {
@@ -127,11 +130,12 @@ h1.titlescript {
     /*transform: rotate(270deg);*/
     width: auto;
 }
-div.projects{
+div.columns.project {
     background-color: $granite;
     border-radius: $radius;
     color: $clay;
 }
+
 .project-title {
     color: $white;
     font-size: $size-4;
@@ -147,7 +151,13 @@ div.tile img:hover {
     filter: none;
 }
 
-
+div.column.project {
+    border-left: 1px solid $slate;
+}
+h2.project-title { 
+    color: $white;
+    text-align: left;
+}
 /* --> Footer */
 footer{
     background-color: $slate;
