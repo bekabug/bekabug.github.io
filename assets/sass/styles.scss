@@ -46,14 +46,14 @@ body{
 /* -> Links */
 
 a,a:link {
-    background: $yellow;    
-    color: $slate;
-    border-radius: $radius;
-    padding: 2px;
+    color: $plum;
+    font-weight: 700;
 }
 a:visited{}
 a:hover{
-    color: $purple;
+    color: $plum;
+    border-bottom: 1px dotted $slate;
+    transition: .3s all ease-in-out;
 }
 a:active{}
 
@@ -70,7 +70,9 @@ h2, h3, h4{
     font-family: $body-family;
     font-weight:700;
 }
-
+.left {
+    text-align: left;
+}
 .right {
     text-align: right;
 }
@@ -145,26 +147,37 @@ div.columns.project {
     font-size: $size-4;
     text-transform: lowercase;
 }
-
+div.column.project {
+    border-left: 1px solid $slate;
+}
+h2.project-title, h2.skills-title { 
+    color: $white;
+}
 div.tile img {
     background: $plum;
     filter: opacity(40%);
     margin: 0 auto;
+    transition: .3s all ease-in-out;
 }
 div.tile img:hover {
     filter: none;
+    transition: .3s all ease-in-out;
+}
+section.skills {
+    background-color: $plum;
+    color: $clay;
+}
+h1.skills{
+    color: $clay;
 }
 
-div.column.project {
-    border-left: 1px solid $slate;
-}
-h2.project-title { 
-    color: $white;
-    text-align: left;
-}
 /* --> Footer */
 footer{
-    background-color: $slate;
-    color: $softpink;
+    background-color: $granite;
+    color: $clay;
+    
+}
+footer h4{
+    color: $plum;
     font-weight: 700;
 }
